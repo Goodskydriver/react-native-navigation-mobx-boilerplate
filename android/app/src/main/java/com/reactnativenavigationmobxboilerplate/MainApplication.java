@@ -4,6 +4,7 @@ import android.app.Application;
 import android.support.annotation.Nullable;
 
 import com.facebook.react.ReactApplication;
+import com.imagepicker.ImagePickerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -15,7 +16,7 @@ import java.util.List;
 import com.reactnativenavigation.NavigationApplication;
 
 public class MainApplication extends NavigationApplication {
-
+  
   @Override
   public boolean isDebug() {
       return BuildConfig.DEBUG;
@@ -24,7 +25,9 @@ public class MainApplication extends NavigationApplication {
   @Nullable
   @Override
   public List<ReactPackage> createAdditionalReactPackages() {
-      return null;
+      return Arrays.<ReactPackage>asList(
+        new ImagePickerPackage()
+      );
   }
 
   @Override

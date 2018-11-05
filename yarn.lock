@@ -4368,6 +4368,10 @@ react-lifecycles-compat@^3.0.2:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
+react-native-image-picker@^0.27.1:
+  version "0.27.1"
+  resolved "https://registry.yarnpkg.com/react-native-image-picker/-/react-native-image-picker-0.27.1.tgz#32877c667e8c2713466fe178a6c7dd648e6cb5d3"
+
 "react-native-navigation@https://github.com/ivancheng1214/react-native-navigation#master":
   version "1.1.406"
   resolved "https://github.com/ivancheng1214/react-native-navigation#203dab2754f00a6c569c44fcc31ca9228b780163"
