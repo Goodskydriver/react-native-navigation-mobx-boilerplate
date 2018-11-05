@@ -19,7 +19,7 @@ A simple boilerplate based on MobX (w/ Provider) instead of Redux and [wix/react
 - `flow-bin '^0.47.0'`
 
 # Installation
-1. Clone this repo: `git clone https://github.com/kanzitelli/react-native-navigation-mobx-boilerplate.git`
+1. Clone this repo: `git clone https://github.com/Goodskydriver/react-native-navigation-mobx-boilerplate.git`
 2. Install node modules: `cd react-native-navigation-mobx-boilerplate && yarn install`. Make sure `yarn` is [installed](https://yarnpkg.com/en/docs/install) on your machine.
 3. Rename application using [react-native-rename](https://github.com/junedomingo/react-native-rename) if needed.
 4. `react-native run-ios` or `react-native run-android` (if you have any errors while building the project for iOS, remove the `ios/build` directory or visit [facebook/react-native/issues/7308](https://github.com/facebook/react-native/issues/7308) for more information).
