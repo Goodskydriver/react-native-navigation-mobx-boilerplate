@@ -9,6 +9,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-preset-react-native-stage-0": "^1.0.1",
+    "glamorous-native": "1.4.0",
     "mobx": "4.3.0",
     "mobx-persist": "0.4.1",
     "mobx-react": "5.2.3",
